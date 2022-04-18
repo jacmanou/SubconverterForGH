@@ -1,0 +1,24 @@
+🔰 ALL`select`[]🌈 FALLBACK`[]🚀 PROXY`[]♻️ AUTO`[]🎯 DIRECT
+🌈 FALLBACK`fallback`[]🚀 PROXY`[]♻️ AUTO`http://www.gstatic.com/generate_204`60,5,100
+🚀 PROXY`select`.*
+🇫🇷 FRANCEAUTO`fallback`[]🇫🇷 FRANCE`[]♻️ AUTO`http://www.gstatic.com/generate_204`60,5,100
+🇫🇷 FRANCE`select`(?i)(France)`[]🔰 ALL
+🚧 IPTV`select`[]🔰 ALL`[]🇫🇷 FRANCE`[]🎯 DIRECT
+📅 VOIP`select`[]🔰 ALL`[]🇫🇷 FRANCE`[]🎯 DIRECT
+🔥 TORRENT`select`(?i)(TORRENTING SERVER)`[]🎯 DIRECT
+♻️ AUTO`url-test`.*`http://www.gstatic.com/generate_204`300
+
+;📅 DAILY`select`(?i)(daily)`http://www.gstatic.com/generate_204`60,5,100
+;📅 DAILY AUTO`fallback`(?i)(daily)`http://www.gstatic.com/generate_204`60,5,100
+
+;🎥 NETFLIX`select`[]🔰 ALL`[]♻️ AUTO`[]🎯 DIRECT`.*
+;⛔️ ADBLOCK`select`[]🛑 GLOBAL`[]🎯 DIRECT`[]🔰 ALL
+;🚫 HIJACK`select`[]🛑 GLOBAL`[]🎯 DIRECT`[]🔰 ALL
+🌍 FOREIGN`select`[]🔰 ALL`[]♻️ AUTO`[]🎯 DIRECT`.*
+🌏 CHINA`select`[]🎯 DIRECT`(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)`[]🔰 ALL
+Ⓜ️ MICROSOFT`select`[]🎯 DIRECT`[]🔰 ALL`.*
+📲 TELEGRAM`select`[]🔰 ALL`[]🎯 DIRECT`.*
+🍎 APPLE`select`[]🔰 ALL`[]🎯 DIRECT`[]♻️ AUTO`.*
+🎯 DIRECT`select`[]DIRECT
+🛑 GLOBAL`select`[]REJECT`[]DIRECT
+🐟 FINAL`select`[]🔰 ALL`[]♻️ AUTO`[]🇫🇷 FRANCEAUTO`[]🎯 DIRECT`.*

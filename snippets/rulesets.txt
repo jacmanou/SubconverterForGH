@@ -1,0 +1,23 @@
+🎯 DIRECT,rules/LocalAreaNetwork.list
+Ⓜ️ MICROSOFT,rules/MSServices.list
+🎯 DIRECT,rules/DivineEngine/Surge/Ruleset/Unbreak.list
+🛑 GLOBAL,rules/NobyDa/Surge/AdRule.list
+🛑 GLOBAL,rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list
+;🎥 NETFLIX,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list
+🌍 FOREIGN,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list
+🌏 CHINA,rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list
+📲 TELEGRAM,rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list
+🔰 ALL,rules/DivineEngine/Surge/Ruleset/Global.list
+🍎 APPLE,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
+🎯 DIRECT,rules/DivineEngine/Surge/Ruleset/China.list
+🎯 DIRECT,rules/NobyDa/Surge/Download.list
+🎯 DIRECT,[]GEOIP,CN
+🐟 FINAL,[]FINAL
+;🔰 ALL,rules/PersoALL.list
+;🇫🇷 FRANCE,rules/PersoFRANCE.list
+;🎯 DIRECT,rules/PersoDIRECT.list
